@@ -2,8 +2,8 @@ import React from 'react';
 function Stats() {
     return ( 
         <div className='container p-3'>
-            <div className='row p-5'>
-                <div className='col-6 p-5'>
+            <div className='row p-md-5 p-2'>
+                <div className='col-12 col-md-6 p-5'>
                     <h1 className='fs-2 mb-5'>Trust with confidence</h1>
                     <h2 className='fs-4'>Customer-first always</h2>
                     <p className='text-muted'>That's why 1.3+ crore customers trust Zerodha with Rs3.5+ lakh crores of equity investments.</p>
@@ -14,7 +14,7 @@ function Stats() {
                     <h2 className='fs-4'>Do better with money</h2>
                     <p className='text-muted'>with initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
-                <div className='col-6'>
+                <div className='col-12 col-md-6'>
                     <img src="media/images/ecosystem.png" style={{width:"85%"}}/>
                     <div className='text-center'>
                         <a href='#' className='mx-5' style={{textDecoration:"None"}}>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>

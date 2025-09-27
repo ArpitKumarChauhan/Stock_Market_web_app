@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 import Hero from './Hero';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
-import UniverseSection from './UniverseSection';
-import Footer from './Footer';
-function ProductsPage() {
+import UniverseSection from './Universe';
+import Footer from '../Footer';
+function ProductPage() {
     return (  
         <>
         <Navbar/>
@@ -18,4 +18,4 @@ function ProductsPage() {
     );
 }
 
-export default ProductsPage;
+export default ProductPage;

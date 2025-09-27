@@ -3,10 +3,10 @@ function Education() {
     return ( 
         <div className='container mb-5'>
             <div className='row'>
-                <div className='col-6 mt-5'>
+                <div className='text-center col-md-6 col-12 mt-0 mt-md-4'>
                     <img src='media/images/education.svg' style={{width:"70%"}}/>
                 </div>
-                <div className='col-6 mt-5'>
+                <div className='col-md-6 col-12 mt-5 ps-sm-5'>
                     <h1 className='fs-2'>Free and open market education</h1>
                     <p>Varsity, the largest online staock market education book in the world covering everything from the basics to advance trading.</p>
                     <a href='#' style={{textDecoration:"none"}}>Versity <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
