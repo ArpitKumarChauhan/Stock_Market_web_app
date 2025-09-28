@@ -35,3 +35,19 @@ code {
 .text-decoraction{
   text-decoration: none;
 }
+#supportColor{
+  background: #387ED1;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+#supportColor input{
+  padding:3%;
+  width:90%;
+  border-radius: 10px;
+  border:none;
+  font-size: 100%;
+}
