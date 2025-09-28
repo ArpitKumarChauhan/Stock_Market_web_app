@@ -8,7 +8,7 @@ function Footer() {
                 <div className='col-md-3 col-4 mb-5'>
                     <img src="media/images/logo.svg" alt="Logo" className="logo-img mb-2"/> 
                     <p> &copy; 2010 - 2026, Zerodha Broking Ltd. <br/>All rights reserved.</p>   
-                    <hr/>
+                    <p className='border-bottom'></p>
                 </div>
                 
                 <div className='col-12 col-md-3 mb-5'>
